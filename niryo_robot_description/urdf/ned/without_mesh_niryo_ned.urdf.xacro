@@ -120,7 +120,7 @@
         </collision>
     </link>
 
-    
+
     <joint name="joint_test"
            type="fixed">
         <origin xyz="0 0 0"
@@ -181,5 +181,7 @@
 
     <link name="tool_link">
     </link>
+
+    <xacro:include filename="$(find henry_turret_description)/urdf/henry_turret_description.urdf.xacro"/>
 
 </robot>

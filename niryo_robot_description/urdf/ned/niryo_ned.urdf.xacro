@@ -35,8 +35,6 @@
         </collision>
     </link>
 
-
-
     <joint name="joint_1"
            type="revolute">
         <origin xyz="0 0 0.1065"
@@ -189,12 +187,12 @@
                     rpy="0 0 0"/>
             <geometry>
                 <!-- <box size="0.03 0.03 0.046"/>  -->
-                <box size="0.0435 0.0285 0.0465"/>      
+                <box size="0.0435 0.0285 0.0465"/>
             </geometry>
         </collision>
     </link>
 
-    
+
     <joint name="joint_test"
            type="fixed">
         <origin xyz="0 0 0"
@@ -202,7 +200,7 @@
         <parent link="forearm_link"/>
         <child link="joint5_motor"/>
     </joint>
- 
+
 
     <joint name="joint_5"
            type="revolute">
@@ -281,5 +279,7 @@
 
     <link name="tool_link">
     </link>
+
+    <xacro:include filename="$(find henry_turret_description)/urdf/henry_turret_description.urdf.xacro"/>
 
 </robot>
