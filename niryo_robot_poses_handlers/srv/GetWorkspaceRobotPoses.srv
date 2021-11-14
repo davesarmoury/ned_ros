@@ -1,5 +1,0 @@
-string name
----
-int32 status
-string message
-niryo_robot_msgs/RobotState[] poses

@@ -32,10 +32,7 @@
     <run_depend>trajectory_msgs</run_depend>
 
     <!-- Niryo Dependencies -->
-    <run_depend>niryo_robot_hardware_interface</run_depend>
     <run_depend>niryo_robot_msgs</run_depend>
-    <run_depend>niryo_ned_moveit_config_standalone</run_depend>
-    <run_depend>niryo_ned_moveit_config_w_gripper1</run_depend>
 
     <!-- Python Dependencies -->
     <run_depend>python-numpy</run_depend>

@@ -50,8 +50,8 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-catkin_install_python(
-    PROGRAMS scripts/robot_commander_node.py
-    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
+#catkin_install_python(
+#    PROGRAMS scripts/robot_commander_node.py
+#    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#)
 
